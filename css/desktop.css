@@ -62,8 +62,17 @@ button {
   background-size: cover;
   height: 22em;
 }
-#info-corso :first-child {
-  margin-top: 3.5em;
+#pic-info-corso {
+  display: inline-block;
+  width: 50%;
+}
+
+#text-info-corso {
+  display: inline-block;
+  padding-bottom: 6em;
+  padding-top: 6em;
+  width: 30%;
+  text-align: left;
 }
 #info-corso p {
   margin-bottom: 4em;
